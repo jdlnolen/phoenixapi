@@ -1,6 +1,6 @@
 use Mix.Config
 
-config :hello_phoenix, TradingApi.Endpoint,
+config :trading_api, TradingApi.Endpoint,
   http: [port: {:system, "PORT"}],
   url: [scheme: "https", host: "frozen-mesa-51807.herokuapp.com", port: 443],
   force_ssl: [rewrite_on: [:x_forwarded_proto]],
