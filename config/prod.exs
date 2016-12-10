@@ -1,7 +1,5 @@
 use Mix.Config
 
-...
-
 config :hello_phoenix, TradingApi.Endpoint,
   http: [port: {:system, "PORT"}],
   url: [scheme: "https", host: "frozen-mesa-51807.herokuapp.com", port: 443],
